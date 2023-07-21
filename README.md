@@ -1,6 +1,7 @@
 # To run the dashboard
 1. Install all the requirements from the requirements.txt file from folder imd_dashboard
-2. Run the index.py file after doing the following:
+2. Unzip 'the mask_files.zip file from imd_dashboard/data and use these as we have ordered them according to districts
+3. Run the index.py file after doing the following:
 
 In dash_app.py: <br>*line 53* - ensure argument is the correct file path. <br>
 		*line 109*- change argument to india_shapefile_s.json (according to path in server) <br>
