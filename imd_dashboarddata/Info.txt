@@ -1,8 +1,0 @@
-#What the .csv files contain
-1. Coordinates.csv -> Contains latitude and longitude values for each boundary point of each district. (used for temperature calculation)
-2. dry_wet_days -> Contains district name, state name and number of dry days and wet days for each year from 1901 to 2022.
-3. post-monsoon_avgs -> Contains district name, state name and avg temp for the post-monsoon season i.e. Oct to Dec.
-4. pre-monsoon_avgs -> Contains district name, state name and avg temp for the pre-monsoon season i.e. March to May.
-5. southwest-monsoon_avgs -> Contains district name, state name and avg temp for the southwest-monsoon season i.e. July to Sept.
-6. winter_avgs ->  Contains district name, state name and avg temp for the winter season i.e. Jan to Feb.
-7. yearly_avg_temp -> Contains district name, state name and avg temp for the whole year.
