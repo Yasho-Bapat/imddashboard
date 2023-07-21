@@ -1,0 +1,10 @@
+body {
+    font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-family: Helvetica
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black
+}
