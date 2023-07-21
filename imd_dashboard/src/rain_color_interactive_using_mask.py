@@ -20,7 +20,7 @@ def get_district_rainfall(arr):
         mask_coord = maskdata.variables['mask'][:]
         lat = maskdata.variables['latitude'][:]
         #print(maskdata)
-        values.append(float(np.round(np.sum(arr * mask_coord)/(np.sum(mask_coord)*0.625),1)))
+        values.append(float(np.round(np.sum(arr * mask_coord)/(np.sum(mask_coord)),3)))
     return values
 
 
